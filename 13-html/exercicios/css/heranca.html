@@ -6,6 +6,17 @@
     <title>Herança</title>
     <style>
         /* ... */
+        body {
+            font-family: monospace;
+            font-size: 40px;
+            border: solid 2px red; /* não transmite por herança */
+            padding: 50px; /* não transmite por herança */
+        }
+
+        div {
+            border: inherit; /* quer herdar (forçar) */
+            padding: inherit;
+        }
     </style>
 </head>
 
